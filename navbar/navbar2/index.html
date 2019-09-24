@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Nav Bar Responsive</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <div class="logo">
+                    LOGO
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad pariatur quo voluptas doloremque
+                reiciendis odit debitis dolores aliquam? Consequatur excepturi reiciendis sit modi atque suscipit,
+                explicabo animi nemo deserunt!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad pariatur quo voluptas doloremque
+                reiciendis odit debitis dolores aliquam? Consequatur excepturi reiciendis sit modi atque suscipit,
+                explicabo animi nemo deserunt!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad pariatur quo voluptas doloremque
+                reiciendis odit debitis dolores aliquam? Consequatur excepturi reiciendis sit modi atque suscipit,
+                explicabo animi nemo deserunt!
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+
+        });
+    </script>
+</body>
+
+</html>

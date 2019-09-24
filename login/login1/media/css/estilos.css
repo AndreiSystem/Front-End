@@ -1,0 +1,104 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-orange {
+    background-color: #ff763b;
+    color: #fff;
+}
+
+.btn-orange:hover {
+    background-color: #d06734;
+    color: #fff;
+}
+
+.btn-outline-orange {
+    color: #ff763b;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff763b;
+}
+
+.btn-outline-orange:hover {
+    background-color: #ff763b;
+    background-image: none;
+    border-color: #ff763b;
+    color: #fff;
+}
+
+.bg-orange {
+    background-color: #ff763b;
+}
+
+.text-orange {
+    color: #ff763b;
+}
+
+.bg-soft-orange {
+    background-color: rgba(255, 126, 59, 0.8);
+}
+
+.bg-dark-orange {
+    background-color: #ff620d;
+}
+
+.border-orange {
+    border: 3px solid #ff620d;
+}
+
+.border-black {
+    border: 3px solid #000000;
+}
+
+.border-light {
+    border: 3px solid #fbfbfb;
+}
+
+.badge-orange {
+    background-color: #ff763b;
+    color: #ffffff;
+}
+
+.nav-item {
+    font-size: 18px !important;
+}
+
+.bg-black {
+    background-color: #191919;
+}
+
+.font-weight-bold {
+    letter-spacing: 1px;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+strong {
+    letter-spacing: 0.04em;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg-index {
+    /* The image used */
+    background: url("../images/alo.jpg") no-repeat;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+
+    background-size: cover;
+}
+
+@media screen and (max-width: 760px) {
+    .bg-index {
+        background-image: none;
+    }
+}

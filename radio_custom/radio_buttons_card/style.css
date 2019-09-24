@@ -1,0 +1,18 @@
+.card-input-radio {
+    display: none;
+}
+
+.card-input-radio:checked+.card {
+    background-color: white;
+    border: 3px solid green;
+}
+
+.card {
+    background-color: lightgrey;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
